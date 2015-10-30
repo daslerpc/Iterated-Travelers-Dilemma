@@ -1,0 +1,36 @@
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+TFT (y-1)
+Gnrc Trvlr
+Gnrc Trvlr
+L(y-g) E(x-g) H(x-g)
+Gnrc Trvlr
+TFT (y-2)
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+Gnrc Trvlr
+L(x) E(x) H(y-g)
+L(x) E(x-2g) H(y-g)
+51
+2
+L(x-2g) E(x-2g) H(y-g)
+L(x-2g) E(x) H(y-g)
+Gnrc Trvlr
+R[99, 100]
+Gnrc Trvlr
+Gnrc Trvlr
+99
+Gnrc Trvlr
+100
+Gnrc Trvlr
+Gnrc Trvlr
+R[2, 100]

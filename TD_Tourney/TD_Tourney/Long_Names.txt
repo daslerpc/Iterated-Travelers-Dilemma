@@ -1,0 +1,42 @@
+Under Buckets - PD, Retention = 0.2
+Under Buckets - PD, Retention = 0.5
+TFT - Simple (y-1)
+TFT - Low(y-g) Equal(x-g) High(x-g)
+Under Buckets - (Fullest, Newest)
+Under Buckets - (Fullest, Random)
+Under Buckets - (Fullest, Highest)
+Q Learn - alpha= 0.8, discount= 0.9
+Q Learn - alpha= 0.8, discount= 0.0
+Q Learn - alpha= 0.2, discount= 0.9
+Q Learn - alpha= 0.2, discount= 0.0
+Q Learn - alpha= 0.5, discount= 0.0
+Q Learn - alpha= 0.5, discount= 0.9
+Buckets - PD, Retention = 0.2
+Simple Trend - K = 10, Eps = 0.5
+Under Buckets - (Fullest, Lowest)
+Under Buckets - PD, Retention = 0.8
+Buckets - PD, Retention = 0.5
+Simple Trend - K = 3, Eps = 0.5
+Buckets - (Fullest, Random)
+Buckets - (Fullest, Highest)
+Buckets - PD, Retention = 0.8
+Simple Trend - K = 25, Eps = 0.5
+Simple Trend Tweak - K = 10, Eps = 0.5
+Simple Trend Tweak - K = 3, Eps = 0.5
+Mixed - {TFT (y-1), 80%); (R[99, 100], 20%)}
+Always 97
+Simple Trend Tweak - K = 25, Eps = 0.5
+Mixed - {L(x) E(x) H(y-g), 80%); (100, 20%)}
+Zeuthen Strategy - Positive
+Always 100
+Random [99, 100]
+Mixed - {L(y-g) E(x-g) H(x-g), 80%); (100, 20%)}
+Always 99
+Random [96, 100]
+Simple Trend New - K = 25, Eps = 0.5
+Simple Trend New - K = 10, Eps = 0.5
+Mixed - {L(y-g) E(x-g) H(x-g), 80%); (100, 10%); (2, 10%)}
+Always 2
+Simple Trend New - K = 3, Eps = 0.5
+Zeuthen Strategy - Negative
+Random [2, 100]

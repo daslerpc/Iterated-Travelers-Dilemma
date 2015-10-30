@@ -1,0 +1,31 @@
+﻿Build started 12/20/2010 3:29:10 PM.
+     1>Project "C:\Users\Phil\Desktop\School\TD_Results_Crawler\TD_Results_Crawler\TD_Results_Crawler.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TD_Results_Crawler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt crawler.cpp main.cpp strategy.cpp
+         strategy.cpp
+     1>c:\users\phil\desktop\school\td_results_crawler\td_results_crawler\strategy.cpp(58): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\phil\desktop\school\td_results_crawler\td_results_crawler\strategy.cpp(59): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+         main.cpp
+         crawler.cpp
+     1>c:\users\phil\desktop\school\td_results_crawler\td_results_crawler\crawler.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TD_Results_Crawler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.lib" /MACHINE:X86 Debug\crawler.obj
+         Debug\strategy.obj
+         Debug\main.obj
+         LINK : C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.exe not found or not built by the last incremental link; performing full link
+         TD_Results_Crawler.vcxproj -> C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Phil\Desktop\School\TD_Results_Crawler\Debug\TD_Results_Crawler.exe;#1" /manifest Debug\TD_Results_Crawler.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TD_Results_Crawler.unsuccessfulbuild".
+         Touching "Debug\TD_Results_Crawler.lastbuildstate".
+     1>Done Building Project "C:\Users\Phil\Desktop\School\TD_Results_Crawler\TD_Results_Crawler\TD_Results_Crawler.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.88
